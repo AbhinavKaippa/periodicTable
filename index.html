@@ -4,10 +4,6 @@
     <title>Document</title>
     <style>
 
-      * {
-        /* font-family: sans-serif; */
-      }
-
       body {
         background-color: rgba(0, 0, 0, 0.9);
       }
@@ -25,49 +21,49 @@
       gap: 1px;
       }
 
-      #upperTable div,#fBlock div {
+      #upperTable div, #fBlock div {
         border-radius: 5px;
         text-align: center;
       }
 
 
-    #upperTable {
-      grid-template-columns: repeat(18, 100px);
-      grid-template-rows: repeat(8, 100px);
-      grid-template-areas: 
-      "    one   .     .     .     .     .     .     .     .     .     .     .      .     .     .     .     .     eiten "
-      "    H     two   .     .     .     .     Tbl   Tbl   Tbl   Tbl   Tbl   .      trtn  frtn  fiftn sixtn svntn He    "
-      "    Li    Be    .     .     .     .     .     .     .     .     .     .      B     C     N     O     F     Ne    "
-      "    Na    Mg    three four  five  six   seven eight nine  ten   leven twelve Al    Si    P     S     Cl    Ar   "
-      "    K     Ca    Sc    Ti    V     Cr    Mn    Fe    Co    Ni    Cu    Zn     Ga    Ge    As    Se    Br    Kr    "
-      "    Rb    Sr    Y     Zr    Nb    Mo    Tc    Ru    Rh    Pd    Ag    Cd     In    Sn    Sb    Te    I     Xe    "
-      "    Cs    Ba    La    Hf    Ta    W     Re    Os    Ir    Pt    Au    Hg     Tl    Pb    Bi    Po    At    Rn    "
-      "    Fr    Ra    Ac    Rf    Db    Sg    Bh    Hs    Mt    Ds    Rg    Cn     Nh    Fl    Mc    Lv    Ts    Og    " 
-      ;
-    }
+      #upperTable {
+        grid-template-columns: repeat(18, 100px);
+        grid-template-rows: repeat(8, 100px);
+        grid-template-areas: 
+        "    one   .     .     .     .     .     .     .     .     .     .     .      .     .     .     .     .     eiten "
+        "    H     two   .     .     .     .     Tbl   Tbl   Tbl   Tbl   Tbl   .      trtn  frtn  fiftn sixtn svntn He    "
+        "    Li    Be    .     .     .     .     .     .     .     .     .     .      B     C     N     O     F     Ne    "
+        "    Na    Mg    three four  five  six   seven eight nine  ten   leven twelve Al    Si    P     S     Cl    Ar   "
+        "    K     Ca    Sc    Ti    V     Cr    Mn    Fe    Co    Ni    Cu    Zn     Ga    Ge    As    Se    Br    Kr    "
+        "    Rb    Sr    Y     Zr    Nb    Mo    Tc    Ru    Rh    Pd    Ag    Cd     In    Sn    Sb    Te    I     Xe    "
+        "    Cs    Ba    La    Hf    Ta    W     Re    Os    Ir    Pt    Au    Hg     Tl    Pb    Bi    Po    At    Rn    "
+        "    Fr    Ra    Ac    Rf    Db    Sg    Bh    Hs    Mt    Ds    Rg    Cn     Nh    Fl    Mc    Lv    Ts    Og    " 
+        ;
+      }
 
-    #fBlock {
-      grid-template-columns: repeat(14, 100px);
-      grid-template-rows: repeat(3, 100px);
-      grid-template-areas: 
-      "    Ce   Pr   Nd   Pm   Sm   Eu   Gd   Tb   Dy   Ho   Er   Tm   Yb   Lu   "
-      "    Th   Pa   U    Np   Pu   Am   Cm   Bk   Cf   Es   Fm   Md   No   Lr   "
-      ;
-    }
+      #fBlock {
+        grid-template-columns: repeat(14, 100px);
+        grid-template-rows: repeat(3, 100px);
+        grid-template-areas: 
+        "    Ce   Pr   Nd   Pm   Sm   Eu   Gd   Tb   Dy   Ho   Er   Tm   Yb   Lu   "
+        "    Th   Pa   U    Np   Pu   Am   Cm   Bk   Cf   Es   Fm   Md   No   Lr   "
+        ;
+      }
 
-      .red {
+      .sBlock {
         background-color: red;
       }
 
-      .blue {
+      .dBlock {
         background-color: skyblue;
       }
 
-      .yellow {
+      .pBlock {
         background-color: yellow;
       }
 
-      .green {
+      .fBlock {
         background-color: greenyellow;
       }
 
@@ -97,541 +93,541 @@
 
       <h1 id="text" style="grid-area: Tbl;">Periodic Table</h1>
 
-      <div class="red" style="grid-area: H;">
+      <div class="sBlock" style="grid-area: H;">
         <p>1</p>
         <h2>H</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: He;">
+      <div class="sBlock" style="grid-area: He;">
         <p>2</p>
         <h2>He</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Li;">
+      <div class="sBlock" style="grid-area: Li;">
         <p>3</p>
         <h2>Li</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Be;">
+      <div class="sBlock" style="grid-area: Be;">
         <p>4</p>
         <h2>Be</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: B;">
+      <div class="pBlock" style="grid-area: B;">
         <p>5</p>
         <h2>B</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: C;">
+      <div class="pBlock" style="grid-area: C;">
         <p>6</p>
         <h2>C</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: N;">
+      <div class="pBlock" style="grid-area: N;">
         <p>7</p>
         <h2>N</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: O;">
+      <div class="pBlock" style="grid-area: O;">
         <p>8</p>
         <h2>O</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: F;">
+      <div class="pBlock" style="grid-area: F;">
         <p>9</p>
         <h2>F</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Ne;">
+      <div class="pBlock" style="grid-area: Ne;">
         <p>10</p>
         <h2>Ne</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Na;">
+      <div class="sBlock" style="grid-area: Na;">
         <p>11</p>
         <h2>Na</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Mg;">
+      <div class="sBlock" style="grid-area: Mg;">
         <p>12</p>
         <h2>Mg</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Al;">
+      <div class="pBlock" style="grid-area: Al;">
         <p>13</p>
         <h2>Al</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Si;">
+      <div class="pBlock" style="grid-area: Si;">
         <p>14</p>
         <h2>Si</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: P;">
+      <div class="pBlock" style="grid-area: P;">
         <p>15</p>
         <h2>P</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: S;">
+      <div class="pBlock" style="grid-area: S;">
         <p>16</p>
         <h2>S</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Cl;">
+      <div class="pBlock" style="grid-area: Cl;">
         <p>17</p>
         <h2>Cl</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Ar;">
+      <div class="pBlock" style="grid-area: Ar;">
         <p>18</p>
         <h2>Ar</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: K;">
+      <div class="sBlock" style="grid-area: K;">
         <p>19</p>
         <h2>K</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Ca;">
+      <div class="sBlock" style="grid-area: Ca;">
         <p>20</p>
         <h2>Ca</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Sc;">
+      <div class="dBlock" style="grid-area: Sc;">
         <p>21</p>
         <h2>Sc</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Ti;">
+      <div class="dBlock" style="grid-area: Ti;">
         <p>22</p>
         <h2>Ti</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: V;">
+      <div class="dBlock" style="grid-area: V;">
         <p>23</p>
         <h2>V</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Cr;">
+      <div class="dBlock" style="grid-area: Cr;">
         <p>24</p>
         <h2>Cr</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Mn;">
+      <div class="dBlock" style="grid-area: Mn;">
         <p>25</p>
         <h2>Mn</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Fe;">
+      <div class="dBlock" style="grid-area: Fe;">
         <p>26</p>
         <h2>Fe</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Co;">
+      <div class="dBlock" style="grid-area: Co;">
         <p>27</p>
         <h2>Co</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Ni;">
+      <div class="dBlock" style="grid-area: Ni;">
         <p>28</p>
         <h2>Ni</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Cu;">
+      <div class="dBlock" style="grid-area: Cu;">
         <p>29</p>
         <h2>Cu</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Zn;">
+      <div class="dBlock" style="grid-area: Zn;">
         <p>30</p>
         <h2>Zn</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Ga;">
+      <div class="pBlock" style="grid-area: Ga;">
         <p>31</p>
         <h2>Ga</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Ge;">
+      <div class="pBlock" style="grid-area: Ge;">
         <p>32</p>
         <h2>Ge</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: As;">
+      <div class="pBlock" style="grid-area: As;">
         <p>33</p>
         <h2>As</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Se;">
+      <div class="pBlock" style="grid-area: Se;">
         <p>34</p>
         <h2>Se</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Br;">
+      <div class="pBlock" style="grid-area: Br;">
         <p>35</p>
         <h2>Br</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Kr;">
+      <div class="pBlock" style="grid-area: Kr;">
         <p>35</p>
         <h2>Kr</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Rb;">
+      <div class="sBlock" style="grid-area: Rb;">
         <p>37</p>
         <h2>Rb</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Sr;">
+      <div class="sBlock" style="grid-area: Sr;">
         <p>38</p>
         <h2>Sr</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Y;">
+      <div class="dBlock" style="grid-area: Y;">
         <p>39</p>
         <h2>Y</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Zr;">
+      <div class="dBlock" style="grid-area: Zr;">
         <p>40</p>
         <h2>Zr</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Nb;">
+      <div class="dBlock" style="grid-area: Nb;">
         <p>41</p>
         <h2>Nb</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Mo;">
+      <div class="dBlock" style="grid-area: Mo;">
         <p>42</p>
         <h2>Mo</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Tc;">
+      <div class="dBlock" style="grid-area: Tc;">
         <p>43</p>
         <h2>Tc</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Ru;">
+      <div class="dBlock" style="grid-area: Ru;">
         <p>44</p>
         <h2>Ru</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Rh;">
+      <div class="dBlock" style="grid-area: Rh;">
         <p>45</p>
         <h2>Rh</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Pd;">
+      <div class="dBlock" style="grid-area: Pd;">
         <p>46</p>
         <h2>Pd</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Ag;">
+      <div class="dBlock" style="grid-area: Ag;">
         <p>47</p>
         <h2>Ag</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Cd;">
+      <div class="dBlock" style="grid-area: Cd;">
         <p>48</p>
         <h2>Cd</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: In;">
+      <div class="pBlock" style="grid-area: In;">
         <p>49</p>
         <h2>In</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Sn;">
+      <div class="pBlock" style="grid-area: Sn;">
         <p>50</p>
         <h2>Sn</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Sb;">
+      <div class="pBlock" style="grid-area: Sb;">
         <p>51</p>
         <h2>Sb</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Te;">
+      <div class="pBlock" style="grid-area: Te;">
         <p>52</p>
         <h2>Te</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: I;">
+      <div class="pBlock" style="grid-area: I;">
         <p>53</p>
         <h2>I</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Xe;">
+      <div class="pBlock" style="grid-area: Xe;">
         <p>54</p>
         <h2>Xe</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Cs;">
+      <div class="sBlock" style="grid-area: Cs;">
         <p>55</p>
         <h2>Cs</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Ba;">
+      <div class="sBlock" style="grid-area: Ba;">
         <p>56</p>
         <h2>Ba</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: La;">
+      <div class="dBlock" style="grid-area: La;">
         <p>57</p>
         <h2>La</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Hf;">
+      <div class="dBlock" style="grid-area: Hf;">
         <p>72</p>
         <h2>Hf</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Ta;">
+      <div class="dBlock" style="grid-area: Ta;">
         <p>73</p>
         <h2>Ta</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: W;">
+      <div class="dBlock" style="grid-area: W;">
         <p>74</p>
         <h2>W</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Re;">
+      <div class="dBlock" style="grid-area: Re;">
         <p>75</p>
         <h2>Re</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Os;">
+      <div class="dBlock" style="grid-area: Os;">
         <p>76</p>
         <h2>Os</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Ir;">
+      <div class="dBlock" style="grid-area: Ir;">
         <p>77</p>
         <h2>Ir</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Pt;">
+      <div class="dBlock" style="grid-area: Pt;">
         <p>78</p>
         <h2>Pt</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Au;">
+      <div class="dBlock" style="grid-area: Au;">
         <p>79</p>
         <h2>Au</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Hg;">
+      <div class="dBlock" style="grid-area: Hg;">
         <p>80</p>
         <h2>Hg</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Tl;">
+      <div class="pBlock" style="grid-area: Tl;">
         <p>81</p>
         <h2>Tl</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Pb;">
+      <div class="pBlock" style="grid-area: Pb;">
         <p>82</p>
         <h2>Pb</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Bi;">
+      <div class="pBlock" style="grid-area: Bi;">
         <p>83</p>
         <h2>Bi</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Po;">
+      <div class="pBlock" style="grid-area: Po;">
         <p>84</p>
         <h2>Po</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: At;">
+      <div class="pBlock" style="grid-area: At;">
         <p>85</p>
         <h2>At</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Rn;">
+      <div class="pBlock" style="grid-area: Rn;">
         <p>86</p>
         <h2>Rn</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Fr;">
+      <div class="sBlock" style="grid-area: Fr;">
         <p>87</p>
         <h2>Fr</h2>
         <p></p>
       </div>
 
-      <div class="red" style="grid-area: Ra;">
+      <div class="sBlock" style="grid-area: Ra;">
         <p>88</p>
         <h2>Ra</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Ac;">
+      <div class="dBlock" style="grid-area: Ac;">
         <p>89</p>
         <h2>Ac</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Rf;">
+      <div class="dBlock" style="grid-area: Rf;">
         <p>104</p>
         <h2>Rf</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Db;">
+      <div class="dBlock" style="grid-area: Db;">
         <p>105</p>
         <h2>Db</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Sg;">
+      <div class="dBlock" style="grid-area: Sg;">
         <p>106</p>
         <h2>Sg</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Bh;">
+      <div class="dBlock" style="grid-area: Bh;">
         <p>107</p>
         <h2>Bh</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Hs;">
+      <div class="dBlock" style="grid-area: Hs;">
         <p>108</p>
         <h2>Hs</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Mt;">
+      <div class="dBlock" style="grid-area: Mt;">
         <p>109</p>
         <h2>Mt</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Ds;">
+      <div class="dBlock" style="grid-area: Ds;">
         <p>110</p>
         <h2>Ds</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Rg;">
+      <div class="dBlock" style="grid-area: Rg;">
         <p>111</p>
         <h2>Rg</h2>
         <p></p>
       </div>
 
-      <div class="blue" style="grid-area: Cn;">
+      <div class="dBlock" style="grid-area: Cn;">
         <p>112</p>
         <h2>Cn</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Nh;">
+      <div class="pBlock" style="grid-area: Nh;">
         <p>113</p>
         <h2>Nh</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Fl;">
+      <div class="pBlock" style="grid-area: Fl;">
         <p>114</p>
         <h2>Fl</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Mc;">
+      <div class="pBlock" style="grid-area: Mc;">
         <p>115</p>
         <h2>Mc</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Lv;">
+      <div class="pBlock" style="grid-area: Lv;">
         <p>116</p>
         <h2>Lv</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Ts;">
+      <div class="pBlock" style="grid-area: Ts;">
         <p>117</p>
         <h2>Ts</h2>
         <p></p>
       </div>
 
-      <div class="yellow" style="grid-area: Og;">
+      <div class="pBlock" style="grid-area: Og;">
         <p>118</p>
         <h2>Og</h2>
         <p></p>
@@ -640,169 +636,169 @@
     </div>
 
     <div id="fBlock">
-      <div class="green" style="grid-area: Ce;">
+      <div class="fBlock" style="grid-area: Ce;">
         <p>58</p>
         <h2>Ce</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Pr;">
+      <div class="fBlock" style="grid-area: Pr;">
         <p>59</p>
         <h2>Pr</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Nd;">
+      <div class="fBlock" style="grid-area: Nd;">
         <p>60</p>
         <h2>Nd</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Pm;">
+      <div class="fBlock" style="grid-area: Pm;">
         <p>61</p>
         <h2>Pm</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Sm;">
+      <div class="fBlock" style="grid-area: Sm;">
         <p>62</p>
         <h2>Sm</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Eu;">
+      <div class="fBlock" style="grid-area: Eu;">
         <p>63</p>
         <h2>Eu</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Gd;">
+      <div class="fBlock" style="grid-area: Gd;">
         <p>64</p>
         <h2>Gd</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Tb;">
+      <div class="fBlock" style="grid-area: Tb;">
         <p>65</p>
         <h2>Tb</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Dy;">
+      <div class="fBlock" style="grid-area: Dy;">
         <p>66</p>
         <h2>Dy</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Ho;">
+      <div class="fBlock" style="grid-area: Ho;">
         <p>67</p>
         <h2>Ho</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Er;">
+      <div class="fBlock" style="grid-area: Er;">
         <p>68</p>
         <h2>Er</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Tm;">
+      <div class="fBlock" style="grid-area: Tm;">
         <p>69</p>
         <h2>Tm</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Yb;">
+      <div class="fBlock" style="grid-area: Yb;">
         <p>70</p>
         <h2>Yb</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Lu;">
+      <div class="fBlock" style="grid-area: Lu;">
         <p>71</p>
         <h2>Lu</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Th;">
+      <div class="fBlock" style="grid-area: Th;">
         <p>90</p>
         <h2>Th</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Pa;">
+      <div class="fBlock" style="grid-area: Pa;">
         <p>91</p>
         <h2>Pa</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: U;">
+      <div class="fBlock" style="grid-area: U;">
         <p>92</p>
         <h2>U</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Np;">
+      <div class="fBlock" style="grid-area: Np;">
         <p>93</p>
         <h2>Np</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Pu;">
+      <div class="fBlock" style="grid-area: Pu;">
         <p>94</p>
         <h2>Pu</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Am;">
+      <div class="fBlock" style="grid-area: Am;">
         <p>95</p>
         <h2>Am</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Cm;">
+      <div class="fBlock" style="grid-area: Cm;">
         <p>96</p>
         <h2>Cm</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Bk;">
+      <div class="fBlock" style="grid-area: Bk;">
         <p>97</p>
         <h2>Bk</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Cf;">
+      <div class="fBlock" style="grid-area: Cf;">
         <p>98</p>
         <h2>Cf</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Es;">
+      <div class="fBlock" style="grid-area: Es;">
         <p>99</p>
         <h2>Es</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Fm;">
+      <div class="fBlock" style="grid-area: Fm;">
         <p>100</p>
         <h2>Fm</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Md;">
+      <div class="fBlock" style="grid-area: Md;">
         <p>101</p>
         <h2>Md</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: No;">
+      <div class="fBlock" style="grid-area: No;">
         <p>102</p>
         <h2>No</h2>
         <p></p>
       </div>
 
-      <div class="green" style="grid-area: Lr;">
+      <div class="fBlock" style="grid-area: Lr;">
         <p>103</p>
         <h2>Lr</h2>
         <p></p>
